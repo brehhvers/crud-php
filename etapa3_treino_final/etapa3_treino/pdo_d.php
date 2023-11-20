@@ -1,4 +1,5 @@
 <?php
+  header('Content-Type: text/html; charset=utf-8');
     require ('pdo_con.php');
 
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
